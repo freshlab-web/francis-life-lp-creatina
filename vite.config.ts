@@ -19,4 +19,13 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+   build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/index-akLd5OVp.js`,
+        chunkFileNames: `assets/[name]-akLd5OVp.js`,
+        assetFileNames: `assets/[name]-B--BR9_f[extname]`,
+      }
+    }
+  },
 }));
