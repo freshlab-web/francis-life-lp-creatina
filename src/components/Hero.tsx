@@ -67,7 +67,7 @@ const Hero = () => {
           <div className="relative animate-fade-in-up">
             <div className="relative z-10 mx-auto max-w-md">
               <img 
-                src="/lovable-uploads/a63c31bf-67aa-4a8e-adda-f7372b249b5f.png" 
+                src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@main/dist/lovable-uploads/a63c31bf-67aa-4a8e-adda-f7372b249b5f.png" 
                 alt="Creatina Francis Life - Q10 + Colágeno TII" 
                 className="w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-300"
               />

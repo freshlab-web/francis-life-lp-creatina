@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/074ae349-8ac1-44b2-8801-5f709c4c6b98.png" 
+            src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@main/dist/lovable-uploads/074ae349-8ac1-44b2-8801-5f709c4c6b98.png" 
             alt="Francis Life" 
             className="h-12 w-auto"
           />

@@ -53,13 +53,14 @@ const OfertaEspecial = () => {
                     </div>
                   </div>
 
-                  <Button 
+                  <a href="https://www.francislifesuplementos.com.br/energia-e-disposicao/" target="_blank"><Button 
                     size="lg" 
                     className="w-full bg-francis-red hover:bg-francis-red/90 text-white py-6 text-xl rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     <ShoppingCart className="w-6 h-6 mr-2" />
                     COMPRE AGORA
                   </Button>
+                  </a>
 
                   <p className="text-center text-sm text-gray-600">
                     Pagamento seguro e protegido
@@ -69,7 +70,7 @@ const OfertaEspecial = () => {
                 <div className="bg-gradient-to-br from-francis-blue/10 to-francis-red/10 p-8 md:p-12 flex items-center justify-center">
                   <div className="text-center space-y-4">
                     <img 
-                      src="/lovable-uploads/a63c31bf-67aa-4a8e-adda-f7372b249b5f.png" 
+                      src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@main/dist/lovable-uploads/a63c31bf-67aa-4a8e-adda-f7372b249b5f.png" 
                       alt="Creatina Francis Life" 
                       className="w-64 h-auto mx-auto drop-shadow-xl transform hover:scale-105 transition-transform duration-300"
                     />

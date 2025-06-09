@@ -23,7 +23,7 @@ const Garantia = () => {
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-francis-blue/20 flex items-center justify-center">
                     <Clock className="w-8 h-8 text-francis-blue" />
                   </div>
-                  <h3 className="font-bold text-lg mb-2 font-inter">7 Dias</h3>
+                  <h3 className="font-bold text-lg mb-2 font-inter text-white">7 Dias</h3>
                   <p className="text-white/80 text-sm">Para testar</p>
                 </div>
                 
@@ -31,7 +31,7 @@ const Garantia = () => {
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-francis-red/20 flex items-center justify-center">
                     <RefreshCw className="w-8 h-8 text-francis-red" />
                   </div>
-                  <h3 className="font-bold text-lg mb-2 font-inter">100% do Dinheiro</h3>
+                  <h3 className="font-bold text-lg mb-2 font-inter text-white">100% do Dinheiro</h3>
                   <p className="text-white/80 text-sm">De volta</p>
                 </div>
                 
@@ -39,13 +39,13 @@ const Garantia = () => {
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-francis-gold/20 flex items-center justify-center">
                     <Shield className="w-8 h-8 text-francis-gold" />
                   </div>
-                  <h3 className="font-bold text-lg mb-2 font-inter">Sem Burocracia</h3>
+                  <h3 className="font-bold text-lg mb-2 font-inter text-white">Sem Burocracia</h3>
                   <p className="text-white/80 text-sm">Processo simples</p>
                 </div>
               </div>
 
               <div className="text-center">
-                <p className="text-xl md:text-2xl font-semibold mb-4 font-inter">
+                <p className="text-xl md:text-2xl font-semibold mb-4 text-white font-inter">
                   Tome por até 7 dias. Se não sentir diferença no seu corpo, 
                   <span className="text-francis-gold"> devolvemos seu dinheiro.</span>
                 </p>
