@@ -9,7 +9,7 @@ const OfertaEspecial = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <div className="inline-block bg-francis-red text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse mb-6">
+            <div className="inline-block !bg-francis-red text-white px-6 py-2 rounded-full font-bold text-sm mb-4 animate-pulse mb-6">
               OFERTA ESPECIAL
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-francis-dark mb-6 font-inter">
@@ -26,7 +26,7 @@ const OfertaEspecial = () => {
                       <span className="text-2xl text-gray-500 line-through">
                         De R$ 479,99
                       </span>
-                      <div className="bg-francis-red text-white px-3 py-1 rounded-full text-sm font-bold">
+                      <div className="!bg-francis-red text-white px-3 py-1 rounded-full text-sm font-bold">
                         21% OFF
                       </div>
                     </div>
@@ -55,7 +55,7 @@ const OfertaEspecial = () => {
 
                   <a href="https://www.francislifesuplementos.com.br/energia-e-disposicao/" target="_blank"><Button 
                     size="lg" 
-                    className="w-full mt-5 bg-francis-red hover:bg-francis-red/90 text-white py-6 text-xl rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    className="w-full mt-5 !bg-francis-red hover:!bg-francis-red/90 text-white py-6 text-xl rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     <ShoppingCart className="w-6 h-6 mr-2" />
                     COMPRE AGORA

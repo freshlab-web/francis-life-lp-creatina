@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                className="bg-francis-red hover:bg-francis-red/90 text-white px-8 py-4 text-lg rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="!bg-francis-red hover:!bg-francis-red/90 text-white px-8 py-4 text-lg rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
                 onClick={() => document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Compre Agora - R$ 379,99
