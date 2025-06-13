@@ -35,7 +35,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-white [&_button]:!bg-transparent">
+    <section id="faq" className="py-20 bg-white [&_*]:!bg-transparent">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
@@ -47,7 +47,7 @@ const FAQ = () => {
             </p>
           </div>
 
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-4 [&_button]:!bg-transparent">
             {faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
