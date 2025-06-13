@@ -47,7 +47,7 @@ const FAQ = () => {
             </p>
           </div>
 
-          <Accordion type="single" collapsible className="space-y-4 [&_button]:!bg-transparent">
+          <Accordion type="single" collapsible className="space-y-4 [&_button.font-inter.font-inter]:!bg-transparent">
             {faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
