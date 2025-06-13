@@ -43,7 +43,7 @@ const FAQ = () => {
               Perguntas <span className="text-francis-red">Frequentes</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Tire suas dúvidas sobre a Creatina Francis Life
+              Tire suas dúvidas sobre a Creatina Premium Francis Life
             </p>
           </div>
 

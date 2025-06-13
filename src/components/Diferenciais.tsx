@@ -39,7 +39,7 @@ const Diferenciais = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-francis-dark mb-6 font-inter">
-            Por que a nossa Creatina é <span className="text-francis-red">diferente?</span>
+            Por que a nossa Creatina Premium é <span className="text-francis-red">diferente?</span>
           </h2>
         </div>
 

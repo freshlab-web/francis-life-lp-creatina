@@ -7,7 +7,7 @@ const PublicoAlvo = () => {
     "Já toma creatina, mas quer mais benefícios reais",
     "Pratica atividades físicas ou sente fadiga frequente",
     "Busca saúde muscular, articular e cardiovascular com um único suplemento",
-    "Está acima dos 40 e quer manter força, mobilidade e energia com segurança"
+    "Quer manter força, mobilidade e energia com segurança e qualidade."
   ];
 
   return (

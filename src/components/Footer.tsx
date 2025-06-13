@@ -1,5 +1,7 @@
 
 import { Heart } from "lucide-react";
+import Linkedin from "./IconeLinkedin"
+import Instagram from "./IconeInstagram"
 
 const Footer = () => {
   return (
@@ -15,6 +17,10 @@ const Footer = () => {
             <p className="text-white/80 leading-relaxed">
               Mais do que suplementos, oferecemos soluções completas para sua saúde e bem-estar.
             </p>
+            <div className="flex justify-start gap-12 items-center [&_img]:w-32 mt-12 [&_svg]:w-5 [&_path]:fill-white">
+            <a href="https://www.linkedin.com/company/francis-life-produtos-naturais-ltda/" target="_blank"><Linkedin/></a>
+            <a href="https://www.instagram.com/francislifesuplementos/" target="_blank"><Instagram/></a>
+          </div>
           </div>
           
           <div>
@@ -28,16 +34,24 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-bold text-lg mb-4 font-inter">Contato</h3>
+            <h3 className="font-bold text-lg mb-4 font-inter">Informações de contato:</h3>
             <ul className="space-y-2 text-white/80">
-              <li>SAC: (11) 9999-9999</li>
-              <li>Email: contato@francislife.com.br</li>
-              <li>Seg a Sex: 8h às 18h</li>
+              <li>SAC: (11) 5588-7878</li>
+              <li>Email: <a href="mailto:atendimento@francislife.com.br" target="_blank">atendimento@francislife.com.br</a></li>
+              <li>Localização: <a target="_blank" href="https://www.google.com/maps?sca_esv=45c8bf4228d081b3&output=search&q=R.+Prof.+Apr%C3%ADgio+Gonzaga,+78+-+S%C3%A3o+Judas,+S%C3%A3o+Paulo+-+SP,+04303-000&source=lnms&fbs=AIIjpHxX5k-tONtMCu8aDeA7E5WMlVZjGnBiGIxaghLPqA-PlfgbLKUxiHcJwD8uXnH2piRyKM12_cSdaiHx34ICa6job54HaXV5uis1-k7h9VLxS8xdSsgmtZJ_jbed6F347LGucFrWzysfWZaudhxEXuj17yWsIk42rBNqT6PpnzHrad1eHSwEzPbq2m0hQFarm_qPBYmWfS4ORIyQfTop1lhtGB29Mw&entry=mc&ved=1t:200715&ictx=111">
+              R. Prof. Aprígio Gonzaga, 78 - São Judas, São Paulo - SP, 04303-000</a></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-white/20 pt-8 text-center">
+          <div className="flex justify-center gap-12 items-center [&_img]:w-32 mb-12">
+            <img src="https://www.francislifesuplementos.com.br/wp-content/uploads/2023/05/compra-segura.webp"/>
+            <img src="https://www.francislifesuplementos.com.br/wp-content/uploads/2023/05/site-seguro.png"/>
+          </div>
+
+          
+
           <p className="text-white/60 flex items-center justify-center gap-2">
             © 2024 Francis Life. Todos os direitos reservados. 
             <span className="flex items-center gap-1">

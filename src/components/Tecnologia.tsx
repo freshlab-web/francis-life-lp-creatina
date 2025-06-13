@@ -4,11 +4,11 @@ import { Award, Globe, Users, TrendingUp } from "lucide-react";
 
 const Tecnologia = () => {
   const features = [
-    {
-      icon: Award,
-      title: "Fórmula com nano e biotecnologia",
-      description: "Para maior absorção"
-    },
+    // {
+    //   icon: Award,
+    //   title: "Fórmula com nano e biotecnologia",
+    //   description: "Para maior absorção"
+    // },
     {
       icon: Globe,
       title: "Matéria-prima importada",
@@ -27,7 +27,7 @@ const Tecnologia = () => {
   ];
 
   return (
-    <section className="py-20 bg-francis-dark text-white">
+    <section className="py-20 text-white bg-francis-dark">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-inter">
@@ -35,7 +35,7 @@ const Tecnologia = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <Card key={index} className="bg-white/10 border-0 hover:bg-white/20 transition-all duration-300">
               <CardContent className="p-6 text-center">

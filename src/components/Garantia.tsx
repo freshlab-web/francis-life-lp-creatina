@@ -1,11 +1,14 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Clock, RefreshCw } from "lucide-react";
+import { Splide, SplideSlide } from "@splidejs/react-splide"
+import '@splidejs/react-splide/css';
 
 const Garantia = () => {
   return (
-    <section className="py-20 bg-francis-dark text-white">
-      <div className="container mx-auto px-4">
+    <>
+    <section className="py-20 h-[450px] text-white bg-[linear-gradient(0deg,#0005,#0005),url('https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/imgFundo2.webp')] bg-center bg-fixed bg-cover [background-blend-mode:multiply]">
+      {/* <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="mb-12">
             <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-francis-gold/20 flex items-center justify-center">
@@ -56,8 +59,29 @@ const Garantia = () => {
             </CardContent>
           </Card>
         </div>
-      </div>
+      </div> */}
     </section>
+    <section className="[&_img]:object-contain [&_img]:mx-auto [&_img]:w-auto [&_img]:h-auto [&_ul]:items-center [&_img]:rounded-xl sm:px-20 px-5 py-20 [&_img]:w-auto [&_img]:object-contain [&_img]:block [&_img]:!h-[10rem]">
+        <h3 className="text-4xl md:text-5xl font-bold text-francis-dark mb-6 font-inter text-center">Francis Life é Destaque na mídia</h3> <br/><br/>
+        <Splide options={{perPage:4, pauseOnHover:false, pauseOnFocus:false, gap:'1rem', autoplay:true, type:'loop', pagination:false, breakpoints:{1120:{perPage:3},960:{perPage:2},640:{perPage:1}}}}>
+          <SplideSlide data-splide-interval="2500">
+            <img src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/logo-redetv.webp"/>
+          </SplideSlide>
+
+          <SplideSlide data-splide-interval="2500">
+            <img src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/logo-record.webp"/>
+          </SplideSlide>
+
+          <SplideSlide data-splide-interval="2500">
+            <img src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/logo-donosbola.webp"/>
+          </SplideSlide>
+
+          <SplideSlide data-splide-interval="2500">
+            <img src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/logo-boranews.webp"/>
+          </SplideSlide>
+        </Splide>
+    </section>
+    </>
   );
 };
 

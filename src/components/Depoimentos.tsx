@@ -28,11 +28,11 @@ const Depoimentos = () => {
   };
 
   return (
-    <section id="depoimentos" className="py-20 bg-white">
+    <section id="depoimentos" className="py-20 bg-[linear-gradient(0deg,#0005,#0005),url('https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/fundoTeconologi.webp')] bg-center bg-fixed bg-cover [background-blend-mode:multiply]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-francis-dark mb-6 font-inter">
-            Depoimentos de quem já <span className="text-francis-red">experimentou</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-inter">
+            Depoimentos de quem já experimentou
           </h2>
         </div>
 

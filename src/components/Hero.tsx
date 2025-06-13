@@ -11,11 +11,11 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-inter font-bold text-francis-dark leading-tight">
                 Mais do que Creatina.
-                <span className="text-francis-red block">
-                  Energia, articulação e saúde
-                </span>
+                <span className="text-francis-red">
+                  &nbsp;Energia, articulação e saúde 
+                </span> <br />
                 <span className="text-francis-blue">
-                  em uma única fórmula.
+                    em uma única fórmula.
                 </span>
               </h1>
               
@@ -23,11 +23,10 @@ const Hero = () => {
                 Você sabia que a maioria das creatinas vendidas no mercado é apenas creatina pura?
               </p>
               
-              <p className="text-lg text-francis-dark font-medium">
-                A Creatina Francis Life vai muito além: é um suplemento completo com 
+
+              <p className="text-xl text-gray-600 font-inter">A Creatina Premium Francis Life vai muito além: é um suplemento completo com 
                 <strong className="text-francis-red"> Creatina + Colágeno Tipo II + Coenzima Q10</strong>, 
-                desenvolvido para quem busca mais força, mobilidade e vitalidade com saúde real.
-              </p>
+                desenvolvido para quem busca mais força, mobilidade e vitalidade com saúde real.</p>
             </div>
 
             <div className="flex flex-wrap gap-4">
@@ -67,7 +66,7 @@ const Hero = () => {
           <div className="relative animate-fade-in-up">
             <div className="relative z-10 mx-auto max-w-md">
               <img 
-                src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@main/dist/lovable-uploads/a63c31bf-67aa-4a8e-adda-f7372b249b5f.png" 
+                src="https://cdn.jsdelivr.net/gh/freshlab-web/francis-life-lp-creatina@refs/heads/main/dist/lovable-uploads/img-produto.webp" 
                 alt="Creatina Francis Life - Q10 + Colágeno TII" 
                 className="w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-300"
               />
