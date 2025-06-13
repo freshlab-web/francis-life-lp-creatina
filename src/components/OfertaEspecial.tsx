@@ -53,7 +53,7 @@ const OfertaEspecial = () => {
                     </div>
                   </div>
 
-                  <a href="https://www.francislifesuplementos.com.br/product/creatina-premium/" target="_blank" data-link="https://www.francislifesuplementos.com.br/product/creatina-premium/">
+                  <a href="https://www.francislifesuplementos.com.br/product/creatina-premium/" target="_blank">
                   <Button size="lg" className="w-full mt-5 !bg-francis-red hover:!bg-francis-red/90 text-white py-6 text-xl rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg">
                     <ShoppingCart className="w-6 h-6 mr-2" />
                     COMPRE AGORA
